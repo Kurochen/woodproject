@@ -13,6 +13,7 @@ const IndexPage = () => (
     <Welcome />
     <Composition />
     <Link to="/page-2/">Go to page 2</Link>
+    <Image />
   </Layout>
 )
 
