@@ -37,7 +37,7 @@ const Composition = () => {
             </Grid>
 
             <Grid container spacing={3} className={classes.gridBox}>
-                <Grid item sm>
+                <Grid item xs={12} sm={4}>
                     <Box>
                         <HomeIcon className={classes.icon} />
                     </Box>
@@ -51,7 +51,7 @@ const Composition = () => {
                     </p>
                 </Grid>
 
-                <Grid item sm>
+                <Grid item xs={12} sm={4}>
                     <Box >
                         <BuildIcon className={classes.icon} />
                     </Box>
@@ -65,7 +65,7 @@ const Composition = () => {
                     </p>
                 </Grid>
 
-                <Grid item sm>
+                <Grid item xs={12} sm={4}>
                     <Box >
                         <ViewListIcon className={classes.icon} />
                     </Box>

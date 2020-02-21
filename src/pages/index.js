@@ -6,14 +6,14 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 import Welcome from "../components/welcome/Welcome"
 import Composition from "../components/composition/Composition"
+import HouseList from "../components/HouseList"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Welcome />
     <Composition />
-    <Link to="/page-2/">Go to page 2</Link>
-    <Image />
+    <HouseList />
   </Layout>
 )
 
