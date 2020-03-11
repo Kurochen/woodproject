@@ -74,8 +74,13 @@ function SEO({ description, lang, meta, title }) {
 
 SEO.defaultProps = {
   lang: `ru`,
-  meta: [],
-  description: ``,
+  meta: [
+    {
+      name: `yandex-verification`,
+      content: 'af42a9a466805af3',
+    }
+  ],
+  description: `Проектирование брусовых и бревенчатых домов`,
 }
 
 SEO.propTypes = {

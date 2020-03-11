@@ -28,14 +28,22 @@ module.exports = {
         name: `woodproject`,
         short_name: `wp`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#ffffff`,
+        theme_color: `#c0c78f`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/woodproject-icon.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-material-ui`,
     `gatsby-transformer-javascript-frontmatter`,
+    {
+      resolve: `gatsby-plugin-yandex-metrika`,
+      options: {
+        trackingId: 24543479,
+        webvisor: true,
+        trackHash: true,
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
