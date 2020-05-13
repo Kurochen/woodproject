@@ -31,7 +31,7 @@ function DomLayout(props) {
 
     return (
         <Layout>
-            <SEO title={props.frontmatter.title} />
+            <SEO title={props.frontmatter.title} description={props.frontmatter.description} />
             <Container maxWidth='md'>
                 <Grid className={classes.header}>
                     <Typography

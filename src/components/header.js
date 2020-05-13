@@ -28,7 +28,7 @@ const useStyles = makeStyles({
 export default function Header({ siteTitle }) {
   const classes = useStyles();
   return (
-    <AppBar position="static" color="white">
+    <AppBar position="static" color="primary">
       <Toolbar>
         <Link
           to="/"
